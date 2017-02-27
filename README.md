@@ -6,6 +6,6 @@ Solutions By: **Mohammed Sohail**
 
 Kickstart:
 
-- [ ] A: Country leader
-- [ ] B: Vote
-- [ ] C: Sherlock and Parantheses
+- [x] A: Country leader
+- [x] B: Vote
+- [x] C: Sherlock and Parantheses
