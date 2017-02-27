@@ -1,4 +1,4 @@
-A: Country Leader
+B: Vote
 
 Usage:
 
@@ -12,4 +12,4 @@ Status:
 
 Example Dataset: Pass
 Small Dataset: Pass
-Large Dataset: Fail
+Large Dataset: Pass
