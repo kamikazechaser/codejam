@@ -1,0 +1,15 @@
+C: Sherlock and Parentheses
+
+Usage:
+
+$ node index example > output/example.out
+
+Note:
+
+We are writing out files with I/O redirection
+
+Status:
+
+Example Dataset: Pass
+Small Dataset: Pass
+Large Dataset: Pass
