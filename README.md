@@ -1,6 +1,9 @@
 ## Google Code Jam Solutions
 
-Solutions By: **Mohammed Sohail**
+Contributions By: 
+
+- **Mohammed Sohail**
+- **Caue Rego**
 
 ### 2017
 
