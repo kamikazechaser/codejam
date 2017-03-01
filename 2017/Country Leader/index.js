@@ -1,7 +1,9 @@
+"use strict"
+
 const _ = require('lodash');
 const fs = require('fs');
 
-fs.readFile('./input/' + process.argv[2] + '.in', 'utf8', (err, data) => {
+fs.readFile(process.argv[2], 'utf8', (err, data) => {
     if (err) {
         return console.log(err);
     }
@@ -13,11 +15,11 @@ fs.readFile('./input/' + process.argv[2] + '.in', 'utf8', (err, data) => {
 });
 
 function run(input) {
-  var lines = input.split('\n');
+  let lines = input.split('\n');
   return _.times(lines.shift(), () => {
     return _(lines)
       .splice(0, lines.shift())
-      .map(item => [_(item).split('').uniq().size(), item])
+      .map(item => [_(item.replace(/ /g, '')).split('').uniq().size(), item])
       .orderBy([0, 1], ['asc', 'desc'])
       .map(1)
       .last();
