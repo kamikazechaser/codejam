@@ -2,7 +2,7 @@ A: Country Leader
 
 Usage:
 
-$ node index example > output/example.out
+$ node index input/example.in > output/example.out
 
 Note:
 
@@ -12,4 +12,4 @@ Status:
 
 Example Dataset: Pass
 Small Dataset: Pass
-Large Dataset: Fail
+Large Dataset: Pass
