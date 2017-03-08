@@ -1,0 +1,15 @@
+A: Square Counting
+
+Usage:
+
+$ node index example > output/example.out
+
+Note:
+
+We are writing out files with I/O redirection
+
+Status:
+
+Example Dataset: 3/4 Pass
+Small Dataset: Fail
+Large Dataset: Fail
